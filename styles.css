@@ -13,19 +13,20 @@ footer{
     background-color: #3c2f49;
 }
 
-ul{
-    list-style: none;
-    margin-top: 50%;    
-    padding-top: 3em;
-
-}
-
 li{
     display: inline;
     padding-right: 3em;
     text-align: center;
     font-size: x-large;
 }
+
+.footer{
+    list-style: none;
+    margin-top: 50%;    
+    padding-top: 3em;
+  
+}
+
 
 .names{
     padding-left: 33em;
@@ -36,3 +37,35 @@ li{
     margin-left: 43em;
 
 }
+
+.card-section{
+    background-color: aliceblue;
+    position: relative; 
+    margin: 5em;   
+}
+
+/* .card-section{
+    background-color: aliceblue;
+    position: relative; 
+    margin: 20em;   
+} */
+
+
+.card-li{
+    width: 220px;
+    height: 310px;
+    border-radius: 9px;
+}
+/* 
+.card-li{
+    width: 117px;
+    height: 200px;
+    margin-right: -117px;
+    border-radius: 9px;
+} */
+
+
+
+
+
+
