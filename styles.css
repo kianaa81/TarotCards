@@ -35,7 +35,7 @@ li{
 .logo{
     width: 12%;
     margin-left: 43em;
-
+    margin-bottom: 4em;
 }
 
 .card-section{
@@ -82,4 +82,21 @@ button{
     cursor: pointer;
     margin-left: 36em;
 }
+
+
+.intro{
+    text-align: center;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.intro h1{
+    color: #ddccdd;
+}
+
+.intro h3{
+    color: #ac8ea9;
+    font-size: smaller;
+}
+
 
