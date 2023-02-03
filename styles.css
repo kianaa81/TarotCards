@@ -69,7 +69,17 @@ li{
     opacity: 5;
     position: relative;
     top: -10px;
+    cursor: pointer;
 }
 
-
+button{
+    border-radius: 12px;
+    background-color: #d2add2;
+    color: #3c2f49;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-left: 36em;
+}
 
