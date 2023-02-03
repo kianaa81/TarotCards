@@ -22,7 +22,7 @@ li{
 
 .footer{
     list-style: none;
-    margin-top: 50%;    
+    margin-top: 40%;    
     padding-top: 3em;
   
 }
@@ -39,23 +39,46 @@ li{
 }
 
 .card-section{
-    background-color: aliceblue;
     position: relative; 
-    margin: 5em;   
+    margin-left: 32em;
+    text-align: center;
+    width: 40em;
+    height: 50em;
+    margin-top: 3em;
+}
+
+.card-section h2{
+    color: rgb(95, 123, 165);
+    font-size: 3em;
 }
 
 .card-section2 {
     position: relative; 
     margin: 10em; 
+} 
 
+.headings{
+    position: relative; 
+    text-align: center;    
+    color: #ac8ea9;
+    font-size: larger;
 } 
 
 
-.card-li{
-    width: 220px;
-    height: 310px;
+.headings p{
+    color: white;
+    font-size: larger;
+}
+
+.card-img{    
+    position: relative; 
+    width: 15em;
+    height: 26em;
     border-radius: 9px;
 }
+
+
+
 
 .back{
     width: 124px;
