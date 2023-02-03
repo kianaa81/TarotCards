@@ -44,11 +44,11 @@ li{
     margin: 5em;   
 }
 
-/* .card-section{
-    background-color: aliceblue;
+.card-section2 {
     position: relative; 
-    margin: 20em;   
-} */
+    margin: 10em; 
+
+} 
 
 
 .card-li{
@@ -56,16 +56,20 @@ li{
     height: 310px;
     border-radius: 9px;
 }
-/* 
-.card-li{
-    width: 117px;
-    height: 200px;
-    margin-right: -117px;
+
+.back{
+    width: 124px;
+    height: 250px;
+    margin-right: -150px;
     border-radius: 9px;
-} */
+    opacity: 0.88;
+}
 
-
-
+.card-li2 img:hover{
+    opacity: 5;
+    position: relative;
+    top: -10px;
+}
 
 
 
