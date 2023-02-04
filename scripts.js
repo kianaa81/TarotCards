@@ -7,7 +7,6 @@ function selectCard(){
         });
     }
 }
-
 //Using a button to fetch API
 document.addEventListener("DOMContentLoaded", (event) => {
     const getCardBtn = document.getElementById("getCardBtn");
@@ -30,12 +29,8 @@ function fetchData(url) {
             <img class="card-img" src="cards_img/${data.cards[i].name_short}.jpg">
             <h4>${data.cards[i].meaning_up}</h4>
             <p>${data.cards[i].desc}</p>
-            
             </div>
-
             </div>
-
-
             ` //Using a div to style each card 
             console.log(data.cards[i]);
         }
