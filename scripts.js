@@ -43,4 +43,3 @@ function fetchData(url) {
     result.innerHTML = html;
     })
 }
-
