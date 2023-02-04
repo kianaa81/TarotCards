@@ -27,7 +27,6 @@ li{
   
 }
 
-
 .names{
     padding-left: 33em;
 }
@@ -40,16 +39,14 @@ li{
 
 .card-section{
     position: relative; 
-    margin-left: 32em;
+    margin-left: 26em;
     text-align: center;
-    width: 40em;
-    height: 50em;
-    margin-top: 3em;
+    width: 50em;
+    height: 60em;
 }
 
 .card-section h2{
     color: rgb(95, 123, 165);
-    font-size: 3em;
 }
 
 .card-section2 {
@@ -59,15 +56,16 @@ li{
 
 .headings{
     position: relative; 
-    text-align: center;    
-    color: #ac8ea9;
-    font-size: larger;
+        
+    color: white;
 } 
 
 
 .headings p{
-    color: white;
-    font-size: larger;
+    color: #ac8ea9;
+    font-size: 1.5em;
+    text-align:justify;
+    line-height: 1.5em;
 }
 
 .card-img{    
@@ -76,9 +74,6 @@ li{
     height: 26em;
     border-radius: 9px;
 }
-
-
-
 
 .back{
     width: 124px;
@@ -111,7 +106,6 @@ button{
     cursor: pointer;
     margin-left: 36em;
 }
-
 
 .intro{
     text-align: center;

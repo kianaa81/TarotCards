@@ -27,13 +27,10 @@ function fetchData(url) {
             <div class="headings">
             <h3>${data.cards[i].meaning_rev}</h3>
             <img class="card-img" src="cards_img/${data.cards[i].name_short}.jpg">
-            <h4>${data.cards[i].desc}</h4>
-            <p>${data.cards[i].meaning_up}</p>
+            <h4>${data.cards[i].meaning_up}</h4>
+            <p>${data.cards[i].desc}</p>
             </div>
-
             </div>
-
-
             ` //Using a div to style each card 
             console.log(data.cards[i]);
         }
