@@ -1,3 +1,13 @@
+//Function to keep cards selected once clicked
+const hiddenCards = document.getElementsByClassName("card-li2");
+function selectCard(){
+    for (let i = 0; i < hiddenCards.length; i++) {
+        hiddenCards[i].addEventListener("click", function() {
+            this.className = "card-li3"; //Changing class
+        });
+    }
+}
+
 //Using a button to fetch API
 document.addEventListener("DOMContentLoaded", (event) => {
     const getCardBtn = document.getElementById("getCardBtn");
