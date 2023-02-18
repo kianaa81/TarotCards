@@ -1,4 +1,4 @@
-# iktan-kiana
+# Tarot Card Webpage
 Project for MULT-213 &amp; COMP-264
 
 ## :crystal_ball:  Project: Online Tarot
