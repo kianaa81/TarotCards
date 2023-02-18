@@ -20,6 +20,11 @@ li{
     font-size: x-large;
 }
 
+li a {
+    font-style: normal;
+    color: white;
+}
+
 .footer{
     list-style: none;
     margin-top: 40%;    
@@ -41,8 +46,10 @@ li{
     position: relative; 
     margin-left: 26em;
     text-align: center;
-    width: 50em;
-    height: 60em;
+    width: 40em;
+    height: auto;
+    margin-top: 3em;
+
 }
 
 .card-section h2{
